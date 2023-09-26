@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../styles/globals.css";
+import FirstBlock from "../components/FirstBlock";
+import Header from "../components/Header";
+import ImgBanner from "../components/ImgBanner.astro";
+---
+
+<Layout title="Welcome to Rasaboun.me">
+  <Header />
+  <FirstBlock >
+    <ImgBanner slot="imgbanner" />
+  </FirstBlock>
+</Layout>
